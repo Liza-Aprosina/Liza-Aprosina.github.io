@@ -1,0 +1,86 @@
+.btn{
+    text-decoration: none;
+    background-color: rgba(83, 77, 126, 0.637);
+    color: white;
+    font-size: 15px;
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: rgb(45, 44, 44) 2px solid;
+}
+
+*{
+    margin:0;
+}
+body{
+    margin:0;
+    background-image:url(pngwing.com.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+}
+header{
+    padding:10px 5%;
+    color: white;
+    background-color: rgb(14, 4, 101);
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.book{
+    size: 30px;
+}
+.pustota{
+    width:10%;
+}
+.color_s{
+    color:darkgrey;
+    display:flex;
+    width: 40%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(162, 161, 193);
+    margin: 0 10px;
+}
+.banner{
+    padding: 20% 5%;
+    background-color: rgb(14, 4, 101);
+    color:aliceblue
+}
+.post{
+    background-color:rgb(200, 224, 250);
+    padding:10px 5%;
+    text-align:center;
+}
+.post>*{
+    display:inline-block;
+    width: 450px;
+    font-size: 30px;
+    vertical-align: middle;
+
+}
+.razryv{
+     height: 700px;
+     }
+#final{
+     background-image:url(pattern.jpg);
+     background-attachment: fixed;
+     padding: 15% 30%;
+ }
+#final>div{
+     padding: 10px;
+     background-color: white;
+     text-align:center;
+     font-size: 30px;
+     border: 4px solid black;
+ }
+footer{
+     background-color: black;
+     padding: 10px 0;
+     text-align:center;
+     color: white;
+ }
